@@ -1,2 +1,14 @@
 # Banking-App
-A banking application that allows for a user to see how their investments will grow over time. Functionalities/features include: Initial Investment Amount, Monthly deposit, annual interest (compounded), number of years investment has to grow. 
+A banking application that allows for a user to see how their investments will grow over time. Functionalities/features include: Initial Investment Amount, Monthly deposit, annual interest (compounded), number of years investment has to grow. I 
+
+This project was an investment calculator designed for Airgead Banking. The main problem it solved was helping users understand how their investments would grow over time. By allowing input for principal amount, interest rates, contributions, and time span, the program showed both scenarios—with and without additional monthly deposits. It addressed the real-world issue of financial literacy by making compound interest more transparent and easier to visualize.
+
+I think I did particularly well in structuring the program using classes and separate files. Having a dedicated InvestmentCalculator class with a header and implementation file helped keep the code modular and organized. I also wrote clear loops to handle calculations for yearly balances, making the output easy to interpret for the user.
+
+One area for enhancement would be input validation and error handling. Currently, the program assumes the user will enter valid numbers. By adding input checks (for example, preventing negative values or invalid characters), the program would become more secure and user-friendly. Additionally, I could improve efficiency by using formatted output functions or by optimizing compound interest calculations with built-in math libraries instead of repetitive loops.
+
+The most challenging part was setting up the compound interest calculation with monthly contributions. At first, I struggled with the formula and how to apply deposits along with interest in the right order. I overcame this by breaking the logic into smaller steps and testing yearly increments separately. Online financial formula resources and debugging outputs were really helpful in making sure the math was correct.
+
+This project strengthened my skills in object-oriented programming (OOP), especially using classes and headers in C++. It also gave me experience in file organization, modularity, and separating logic from the main function, which will be useful in larger software projects. The financial formulas are specific, but the problem-solving and debugging approach is transferable to any future programming work.
+
+I made the program maintainable by splitting it into three files: a header (InvestmentCalculator.h), an implementation file (InvestmentCalculator.cpp), and a main.cpp driver. This made the code easier to read and maintain. I also used clear function names and comments to explain the purpose of each function. Because of this modular design, future enhancements—such as adding new investment options or different interest calculation methods can be integrated without rewriting the entire program.
